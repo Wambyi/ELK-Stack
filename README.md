@@ -45,7 +45,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 - Filebeat monitors the log files or locations that you specify, collects log events and forwards them either to the Elasticsearch or Logstash for indexing.
 
-- Metricbeat helps you monitor your servers by collecting metrics from the systema nd services running on the servers such as Apache, MySQL, HAProxy, Mongo DB etc.
+- Metricbeat helps you monitor your servers by collecting metrics from the system and services running on the servers such as Apache, MySQL, HAProxy, Mongo DB etc.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -123,7 +123,7 @@ SSH into the control node and follow the steps below:
 Answer the following questions to fill in the blanks:_
 - Which file is the playbook? Where do you copy it?_
 
-The .yml are playbook files which can be placed in the ansible contained to be deployed.
+The .yml are playbook files which can be placed in the ansible container to be deployed.
 
 - Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 
